@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <style>
+        #game {
+            width: 800px;
+            height: 600px;
+            box-shadow: 0 0 10px #333;
+            position: relative;
+            margin-top: 10px;
+        }
+        
+        #game>div {
+            position: absolute;
+            box-shadow: #0004ff 0px 0px 5px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="game"></div>
+    <img src="puzzle.jpg" alt="puzzle image" width="200" style="margin: 10px;" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="puzzle.js"></script>
+</body>
+
+</html>
